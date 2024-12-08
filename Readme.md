@@ -15,6 +15,3 @@ W tym repozytorium znajdują się:
 - Konto Microsoft Azure z odpowiednimi uprawnieniami do tworzenia zasobów.
 - Zainstalowany [Terraform](https://www.terraform.io/downloads.html) (w wersji zgodnej z `terraform-version` w pliku `.terraform-version`, jeśli jest obecny).
 - Zainstalowany [Azure CLI](https://learn.microsoft.com/pl-pl/cli/azure/install-azure-cli), aby zalogować się do Azure i skonfigurować dostęp.
-
-
-
