@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/infra-clean" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/terragrunt/dev/keyvault" vcs="Git" />
   </component>
 </project>
