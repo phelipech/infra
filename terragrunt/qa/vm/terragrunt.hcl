@@ -9,16 +9,16 @@ terraform {
 inputs = {
   subscription_id     = "1c94011e-8fa5-40ab-a5cb-eb9744bc1f1b"
   tenant_id           = "a467ae83-0827-4c0b-b9f7-4921ffad294b"
-  environment         = "dev"
+  environment         = "qa"
   location            = "eastus"
-  resource_group_name = "dev-rg"
-  vm_name             = "dev-vm"
+  resource_group_name = "qa-rg"
+  vm_name             = "qa-vm"
   admin_username      = "azureuser"
   admin_password      = "SecurePassword123!"
-  vnet_name           = "dev-vnet"
+  vnet_name           = "qa-vnet"
   subnet_name         = "subnet1"
   tags = {
-    environment = "dev"
+    environment = "qa"
     owner       = "team"
   }
 }

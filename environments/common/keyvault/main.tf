@@ -1,11 +1,7 @@
 terraform {
-  backend "azurerm" {
-    resource_group_name  = "terraform-backend-rg"
-    storage_account_name = "terraformbackenddev123"
-    container_name       = "tfstate"
-    key                  = "dev/keyvault.tfstate"
-  }
+  backend "azurerm" {}
 }
+
 provider "azurerm" {
   features {}
 
