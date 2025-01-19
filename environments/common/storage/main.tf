@@ -10,7 +10,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_storage_account" "main" {
-  name                     = "devstorageacct12345fch" 
+  name                     = var.storage_account_name
   resource_group_name      = var.resource_group_name
   location                 = var.location
   account_tier             = "Standard"

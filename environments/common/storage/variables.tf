@@ -28,3 +28,8 @@ variable "tags" {
   type        = map(string)
   default     = {}
 }
+
+variable "storage_account_name" {
+  description = "Nazwa Storage Account dla danego środowiska"
+  type        = string
+}
